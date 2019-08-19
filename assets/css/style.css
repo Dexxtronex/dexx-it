@@ -1,0 +1,19 @@
+    *,
+    *::before,
+    *::after {
+        font-family: 'Roboto';
+        box-sizing: border-box;
+    }
+    body{
+        background: #FFEFBA;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+              
+    }
+    .central{
+        text-align: center;
+    }
+    .central h4{
+        margin-top: 50px;
+        color: chocolate;
+    }
